@@ -45,7 +45,68 @@ h6 {
   padding: 0;
   color: #0e1b4d;
 }
+/*testing*/
+ center{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-size:14px;
+}
 
+
+button {
+  margin-right:1em;
+  border:.1em solid #f17c1c;
+  padding:1em 2em;
+  font-size: 1.3em;
+  background-color: Transparent;
+  background:#222;
+  color:grey;
+}
+
+.center {
+  display:flex;
+  justify-content:center;
+  align-self:center;
+  height:100vh;
+  align-items:center;
+  background-color: Transparent;
+  background:#222;
+    
+}
+
+
+
+.link8 {
+  position:relative;
+  overflow:hidden;
+   background:white;
+   transition:all .5s;
+   background-color: Transparent;
+ }
+ 
+ .link8::before {
+   content:'yeah!';
+   position:absolute;
+   top:0;
+   left:0;
+   background:#f17c1c;
+   height:100%;
+   width:100%;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   transform:scale(5);
+   opacity:0;
+   transition:.5s;
+   color:white;
+ }
+ .link8:hover::before {
+   transform:scale(1);
+   opacity:1;
+ } 
+
+/*testing*/
 .main-page {
   margin-top: 70px;
 }
